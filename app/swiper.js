@@ -15,3 +15,8 @@ window.onscroll = function () {
         navH1.style.display = "block";
     }
 };
+
+if (location.protocol !== "https:") {
+location.protocol = "https:";
+}
+

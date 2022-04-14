@@ -1,9 +1,3 @@
-
-
-if (location.protocol !== "https:") {
-location.protocol = "https:";
-}
-
 var loader = document.getElementById("preloader");
 
 window.addEventListener("load", function() {
