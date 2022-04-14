@@ -5,8 +5,7 @@ window.addEventListener("load", function() {
 loader.style.display = "none";
 })
 
-
-if (window.location.protocol != "https:") {
-window.location.protocol = "https:";
+if (location.protocol !== "https:") {
+location.protocol = "https:";
 }
 
