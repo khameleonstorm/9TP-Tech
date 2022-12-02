@@ -38,71 +38,6 @@ filter: saturate(15) hue-rotate(350deg) contrast(125%) brightness(75%);
 }
 
 
-.founders{
-width: 100%;
-margin-top: 50px;
-margin-bottom: 50px;
-color: var(--white);
-text-align: center;
-}
-
-.founder-wrapper{
-width: 100%;
-display: flex;
-align-items: center;
-justify-content: center;
-}
-
-.founder-slide{
-width: 22%;
-height: 290px;
-padding-top: 250px;
-font-size: 1.3rem;
-font-weight: 300;
-font-family: 'Fredoka', sans-serif;
-}
-
-
-.founders-head{
-color: var(--black);
-font-size: 2.6rem;
-padding-top: 50px;
-font-weight: 600;
-}
-
-.founder1{
-background-size: cover;
-background-position: center;
-border-right: 4px solid var(--lighterblue);
-background-image: linear-gradient(90deg, var(--verylightblack), var(--lightblack)), url(founders/Duong\ Duy\ Dinh.jpg);
-}
-.founder2{
-background-size: cover;
-background-position: center;
-border-right: 4px solid var(--lighterblue);
-background-image: linear-gradient(90deg, var(--verylightblack), var(--lightblack)), url(founders/Duong\ Quang\ Huy.jpg);
-}
-.founder3{
-background-size: cover;
-background-position: center;
-border-right: 4px solid var(--lighterblue);
-background-image: linear-gradient(90deg, var(--verylightblack), var(--lightblack)), url(founders/Bui\ Van\ Phuong.jpg);
-}
-.founder4{
-background-size: cover;
-background-position: center;
-border-right: 4px solid var(--lighterblue);
-background-image: linear-gradient(90deg, var(--verylightblack), var(--lightblack)), url(founders/Vinh\ Duong.jpg);
-}
-
-.founder5{
-background-size: cover;
-background-position: center;
-background-image: linear-gradient(90deg, var(--verylightblack), var(--verylightblack)), url(founders/do-vinh-quang.jpeg);
-}
-
-
-
 
 
 @media screen and (max-width: 780px) {
@@ -111,54 +46,5 @@ background-image: linear-gradient(90deg, var(--verylightblack), var(--verylightb
 background-size: 50%;
 }
         
-
-.founder-wrapper{
-width: 100%;
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: center;
-}
-
-.founder-slide{
-width: 95%;
-height: 270px;
-padding-top: 230px;
-font-size: 1.4rem;
-font-weight: 200;
-margin-bottom: 20px;
-}
-
-
-.founders-head{
-font-size: 2.3rem;
-padding-top: 20px;
-font-weight: 650;
-}
-
-.founder1{
-border-right: none;
-background-size: cover;
-}
-
-.founder2{
-border-right: none;
-background-size: 100%;
-background-position-y: 30%;
-}
-
-.founder3{
-border-right: none;
-background-size: 100%;
-background-position-y: 20%;
-}
-
-.founder4{
-border-right: none;
-}
-
-.founder5{
-background-position-y: 30%;
-}
 
 }
