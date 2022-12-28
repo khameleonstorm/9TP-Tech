@@ -66,6 +66,7 @@ filter: saturate(15) hue-rotate(350deg) contrast(125%) brightness(75%);
   object-fit: cover;
   border-radius: 5px;
 }
+
 .newsProject video{
   width: 250px;
   height: 300px;
@@ -73,6 +74,32 @@ filter: saturate(15) hue-rotate(350deg) contrast(125%) brightness(75%);
   border-radius: 5px;
 }
 
+.location{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  padding: 100px 0;
+}
+
+.locText{
+  width: 100%;
+  max-width: 400px;
+}
+
+.locText h2:nth-child(1){
+  font-size: 3rem;
+  padding-bottom: 20px;
+}
+
+.locImg img{
+  width: 280px;
+  height: 300px;
+  border-radius: 5px;
+  object-fit: cover;
+}
 
 .founders{
 width: 100%;
@@ -174,6 +201,34 @@ background-size: 50%;
   width: 100%;
   height: auto;
 }
+
+
+.location{
+  gap: 50px;
+  flex-direction: row;
+  padding-top: 0;
+}
+
+.locText{
+  width: 100%;
+  max-width: 100%;
+  text-align: center;
+}
+
+.locText h2:nth-child(1){
+  font-size: 3rem;
+}
+
+.locImg{
+  width: 100%;
+}
+
+.locImg img{
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
         
 .founder-wrapper{
 width: 100%;
