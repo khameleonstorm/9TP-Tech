@@ -74,7 +74,7 @@ filter: saturate(15) hue-rotate(350deg) contrast(125%) brightness(75%);
   border-radius: 5px;
 }
 
-.location{
+.location, .location2{
   width: 100%;
   display: flex;
   justify-content: center;
@@ -82,6 +82,10 @@ filter: saturate(15) hue-rotate(350deg) contrast(125%) brightness(75%);
   flex-direction: row-reverse;
   flex-wrap: wrap;
   padding: 100px 0;
+}
+
+.location2{
+  flex-direction: row;
 }
 
 .locText{
@@ -196,7 +200,7 @@ background-size: 50%;
 }
 
 
-.location{
+.location, .location2{
   gap: 50px;
   flex-direction: row;
   padding-top: 0;
